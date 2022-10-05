@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="title">
+                <img src="images/title_img.png" alt="Title Image">
+                <h1>Weatherly</h1>
+            </div>
+          
+            <form class="search_bar">
+                <input id="search_bar" type="search" placeholder="Search City", autocomplete="off", required>
+                <button id="submit_btn"><img src="images/search_img.png" alt="Search Icon"></button>
+            </form>
+        
+        </div>
+    </header>
+  
+    <div class="section">
+        <div class="inner_section">
+            <div class="left_div">
+                <div class="city_title">
+                    <h2 id="city_name">City Name</h2>
+                    <img class="loc" src="images/loc.png" alt="Location Image">
+                </div>
+                
+                <div class="datetime">
+                    <div class="time" id="time">6:00 <span id="am_pm">AM</span></div>
+                    <div class="day" id="day">Saturday</div>
+                    <div class="date" id="date">Oct 1</div>
+                </div>
+            </div>
+            <div class="right_div">
+                <img id="weather_img" class="weather_img" src="" alt="Weather Image">
+                <div class="weather">
+                    <h3 id="temperature" class="temperature">26&#176;C</h3>
+                    <h3 id="weather_type" class="weather_type">Cloudy</h3>
+                    <h3 id="feels_like" class="feels_like">Feels Like 25&#176;C</h3>
+                </div>
+            </div>
+                
+        </div>
+        
+        <!-- <div class="daily_forecast">
+            <div class="day_1"></div>
+            <div class="day_2"></div>
+            <div class="day_3"></div>
+            <div class="day_4"></div>
+            <div class="day_5"></div>
+            <div class="day_6"></div>
+            <div class="day_7"></div>
+        </div>
+            </div> -->
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
