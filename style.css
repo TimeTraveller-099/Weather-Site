@@ -119,7 +119,7 @@ input[type=search]:focus {
 }
 .right_div .weather .feels_like {
     font-family: Segoe UI;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.65);
 }
