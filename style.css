@@ -102,7 +102,7 @@ input[type=search]:focus {
 }
 .right_div .temperature {
     font-size: 60px;
-    font-size: 6vw;
+    font-size: 7vw;
     font-family: Comic Sans MS;
     font-weight: 200;
     color: rgba(255, 255, 255, 0.9);
